@@ -285,5 +285,5 @@ Outputs:
     Description: Security group for the cluster control plane communication with worker nodes
     Value: !Join [ ",", [ !Ref ControlPlaneSecurityGroup ] ]
   VpcId:
-    Description: The VPC Id is
+    Description: The VPC Id is valid
     Value: !Ref VPC
