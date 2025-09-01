@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "data" {
   tags = {
     Name        = "${local.resource_prefix.value}-data"
     Environment = local.resource_prefix.value
-    access_key = "AKIAIOSFODNN7EXAMPLF
+  
   }
 }
 
