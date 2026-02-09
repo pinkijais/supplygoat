@@ -90,6 +90,13 @@ resource "aws_s3_bucket" "logs" {
   }
   force_destroy = true
   tags = {
+
+
+
+
+
+
+
     Name        = "${local.resource_prefix.value}-logs"
     Environment = local.resource_prefix.value
   }
